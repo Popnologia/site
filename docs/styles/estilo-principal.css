@@ -1,0 +1,72 @@
+@charset "UTF-8"; /* Import */
+
+/* Fonte Lato (Google Fonts) */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+/* Fonte Gravidaz (local) */
+@font-face {
+  font-family: Gravidaz;
+  src: url(../fonts/Gravidaz.otf) format("opentype");
+  font-weight: normal;
+}
+
+/* Variáveis */
+:root {
+  /* PALETA DE CORES */
+  /* Tema colorido */
+  --cor01: #0078d3;
+  --cor02: #0098e2;
+  --cor03: #00b3d3;
+  --cor04: #00c9ad;
+  --cor05: #56d97f;
+  /* Tema claro */
+  --cor06: #f2f2f2;
+  --cor07: #ededed;
+  --cor08: #e9e7e7;
+  --cor09: #e3e2e1;
+  --cor10: #dddddb; /*Fundo claro*/
+  --cor-letra-preta: #0e0e0e;
+  /* Tema escuro */
+  --cor11: #1c1c1c; /*Fundo escuro*/
+  --cor12: #292929;
+  --cor13: #373737;
+  --cor14: #464646;
+  --cor15: #555555;
+  --cor-letra-branca: #d9d9d9;
+
+  /* Gradientes */
+  --gradiente-colorido: var(--cor01), var(--cor02), var(--cor03), var(--cor04), var(--cor05);
+  --gradiente-claro: var(--cor06), var(--cor07), var(--cor08), var(--cor09), var(--cor10);
+  --gradiente-escuro: var(--cor11), var(--cor12), var(--cor13), var(--cor14), var(--cor15);
+  --gradiente-padrao: var(--gradiente-claro);
+
+  /* CORES TRANSPARENTES */
+  --fundo-solido: var(--cor10);
+  --fundo-texto: var(--cor10);
+  --fundo-transparente-branco: #ededed80;
+  --fundo-transparente-preto: #1c1c1c80;
+  --fundo-transparente: var(--fundo-transparente-branco);
+
+  /* CORES EM USO */
+  --cor-texto: var(--cor-letra-preta);
+  --cor-titulo-01: var(--cor01);
+  --cor-titulo-02: var(--cor05);
+
+  /* FONTES */
+  --fonte-titulos: "Gravidaz", "Lato", sans-serif;
+  --fonte-texto: "Lato", Arial, Helvetica, sans-serif;
+
+  /* ÍCONES */
+  --icone-colorido: var(--gradiente-colorido);
+  --icone-solido: var(--cor10);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fonte-texto);
+}
+
+body {
+  background-color: var(--cor10);
+}
