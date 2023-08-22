@@ -128,6 +128,11 @@ aside#botoes-nav > button > i {
   margin: 0;
   font-size: 2em;
 }
+/* Ocultar ícones */
+i#menu-aberto,
+i#sumario-aberto {
+  display: none;
+}
 
 /* Nav */
 nav {
