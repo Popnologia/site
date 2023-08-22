@@ -75,7 +75,7 @@ body {
 
 /* HEADER */
 header {
-  height: 7vh;
+  height: 55px;
   width: 100vw;
   position: fixed;
   background-color: var(--fundo-transparente);
@@ -124,11 +124,12 @@ aside#botoes-nav > button {
 aside#botoes-nav > button > i {
   padding: 0;
   margin: 0;
-  font-size: 2em;
+  font-size: 29px;
 }
 /* Ocultar ícones */
-i#menu-aberto,
-i#sumario-aberto {
+#menu-aberto,
+#sumario-aberto,
+#tema-claro {
   display: none;
 }
 /* Cores dos ícones */
