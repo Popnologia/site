@@ -128,8 +128,7 @@ aside#botoes-nav > button > i {
 }
 /* Ocultar ícones */
 #menu-aberto,
-#sumario-aberto,
-#tema-claro {
+#sumario-aberto {
   display: none;
 }
 /* Cores dos ícones */
