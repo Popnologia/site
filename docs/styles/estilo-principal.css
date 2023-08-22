@@ -49,6 +49,10 @@
 
   --sombra: rgba(0, 0, 0, 0.5);
 
+  /* ÍCONES CORES */
+  --icone-colorido: var(--gradiente-colorido);
+  --icone-solido: var(--cor10);
+
   /* CORES EM USO */
   --cor-texto: var(--cor-letra-preta);
   --cor-titulo-01: var(--cor01);
@@ -57,10 +61,6 @@
   /* FONTES */
   --fonte-titulos: "Gravidaz", "Lato", sans-serif;
   --fonte-texto: "Lato", Arial, Helvetica, sans-serif;
-
-  /* ÍCONES */
-  --icone-colorido: var(--gradiente-colorido);
-  --icone-solido: var(--cor10);
 }
 
 * {
@@ -75,6 +75,7 @@ body {
 
 /* HEADER */
 header {
+  height: 7vh;
   width: 100vw;
   position: fixed;
   background-color: var(--fundo-transparente);
@@ -116,9 +117,6 @@ aside#botoes-nav {
   justify-content: space-between; /*Distribuir horizontalmente os elementos filhos*/
 }
 aside#botoes-nav > button {
-  padding: 0;
-  margin: 0;
-
   border: none;
   background: transparent;
 }
@@ -132,6 +130,15 @@ aside#botoes-nav > button > i {
 i#menu-aberto,
 i#sumario-aberto {
   display: none;
+}
+/* Cores dos ícones */
+i {
+  display: flex;
+
+  background-image: linear-gradient(to right bottom, var(--icone-colorido));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Nav */
