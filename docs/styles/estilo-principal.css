@@ -145,3 +145,16 @@ i {
 nav {
   display: none;
 }
+
+/* DIVS COM IMAGENS DE FUNDO */
+.imagem-fundo {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* CAPA DE INTRODUÇÃO DAS PÁGINAS */
+section#capa {
+  padding-top: 400px;
+}
