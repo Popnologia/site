@@ -87,7 +87,7 @@ header {
 
   box-shadow: 0 5px 10px var(--sombra);
 
-  padding: 0 5px;
+  padding: 10px;
 }
 /* Logotipo no header*/
 .logo {
@@ -104,5 +104,15 @@ header {
   font-weight: 500;
 }
 .logo > p {
+  display: none;
+}
+
+/* Botões */
+aside#botoes-nav {
+  margin-right: 6vw;
+}
+
+/* Nav */
+nav {
   display: none;
 }
