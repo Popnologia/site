@@ -30,14 +30,26 @@
 
       <aside id="botoes-nav">
         <!-- Menu responsivo -->
-        <button id="botao-menu">
+        <button onclick="menuMobile()">
           <i id="menu-fechado" class="fi fi-rr-menu-burger"></i>
+        </button>
+        <button onclick="menuMobile()">
           <i id="menu-aberto" class="fi fi-rr-bars-staggered"></i>
         </button>
         <!-- Tema claro/escuro -->
-        <button id="botao-tema">
+        <button onclick="mudarTema()">
           <i id="tema-claro" class="fi fi-rr-brightness"></i>
+        </button>
+        <button onclick="mudarTema()">
           <i id="tema-escuro" class="fi fi-rr-moon-stars"></i>
+        </button>
+
+        <!-- Sumário -->
+        <button onclick="abrirSumario()">
+          <i id="sumario-fechado" class="fi fi-rr-book-bookmark"></i>
+        </button>
+        <button onclick="abrirSumario()">
+          <i id="sumario-aberto" class="fi fi-rr-book-alt"></i>
         </button>
       </aside>
 
@@ -49,6 +61,8 @@
         </ul>
       </nav>
     </header>
+
+    <summary></summary>
 
     <main>
       <section class="imagem-fundo">
