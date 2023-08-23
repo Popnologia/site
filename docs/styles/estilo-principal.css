@@ -72,6 +72,15 @@
 body {
   background-color: var(--cor10);
 }
+/* FORMATAÇÃO DO TITULO "POPNOLOGIA" E SLOGAN */
+.titulo {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.slogan {
+  font-variant: small-caps;
+  font-weight: 700;
+}
 
 /* HEADER */
 header {
@@ -99,12 +108,10 @@ header {
   padding: 10px 0 10px 10px;
 }
 .logo > h1 {
-  text-transform: uppercase;
   font-family: var(--fonte-titulos);
   font-size: 2em;
-  font-weight: 500;
 }
-.logo > p {
+.logo > p.slogan {
   display: none;
 }
 
@@ -162,7 +169,7 @@ div#titulo-pagina {
   height: 100vh;
   width: 100%;
 
-  background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.25));
+  background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.25));
 
   display: flex;
   flex-direction: column;
@@ -181,7 +188,8 @@ div#titulo-pagina p {
   -webkit-text-fill-color: transparent;
 }
 div#titulo-pagina h1 {
-  text-transform: uppercase;
-  font-size: 3em;
-  font-weight: 500;
+  font-size: 3.2em;
+}
+div#titulo-pagina p {
+  font-size: 1.5em;
 }
