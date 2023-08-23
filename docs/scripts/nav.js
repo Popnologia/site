@@ -6,12 +6,14 @@ function navMobile() {
   let body = window.document.querySelector("body")
 
   if (botaoAbrir.style.display != "none") {
+    //Abrir nav
     botaoAbrir.style.display = "none"
     botaoFechar.style.display = "flex"
     nav.style.display = "flex"
 
     body.style.overflow = "hidden" //Impede rolagem do conteúdo quando nav estiver aberto
   } else {
+    //Fechar nav
     botaoAbrir.style.display = "flex"
     botaoFechar.style.display = "none"
     nav.style.display = "none"
