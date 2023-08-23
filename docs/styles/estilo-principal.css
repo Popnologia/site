@@ -86,7 +86,9 @@ body {
 }
 
 /* TÍTULOS */
-h1,
+h1 {
+  font-family: var(--fonte-titulos);
+}
 h2,
 h3,
 h4,
@@ -135,7 +137,6 @@ header {
   padding: 10px 0 10px 10px;
 }
 .logo > h1 {
-  font-family: var(--fonte-titulos);
   font-size: 2em;
 }
 .logo > p.slogan {
