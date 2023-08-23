@@ -181,7 +181,7 @@ header i {
 
 /* NAV */
 nav {
-  display: flex;
+  display: none;
 
   position: fixed;
   z-index: 2;
