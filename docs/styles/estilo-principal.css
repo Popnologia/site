@@ -156,5 +156,32 @@ nav {
 
 /* CAPA DE INTRODUÇÃO DAS PÁGINAS */
 section#capa {
-  padding-top: 400px;
+  /* padding-top: 400px; */
+}
+div#titulo-pagina {
+  height: 100vh;
+  width: 100%;
+
+  background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.25));
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div#titulo-pagina h1,
+div#titulo-pagina p {
+  font-family: var(--fonte-titulos);
+  text-align: center;
+
+  /* Gradiente texto */
+  background-image: linear-gradient(to left, var(--gradiente-colorido));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+div#titulo-pagina h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 500;
 }
