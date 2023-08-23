@@ -153,6 +153,11 @@ nav {
   display: none;
 }
 
+/* MAIN */
+main p {
+  text-align: justify;
+}
+
 /* DIVS COM IMAGENS DE FUNDO */
 .imagem-fundo {
   background-position: center top;
@@ -162,9 +167,6 @@ nav {
 }
 
 /* CAPA DE INTRODUÇÃO DAS PÁGINAS */
-section#capa {
-  /* padding-top: 400px; */
-}
 div#titulo-pagina {
   height: 100vh;
   width: 100%;
@@ -175,6 +177,8 @@ div#titulo-pagina {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  margin-bottom: 0;
 }
 div#titulo-pagina h1,
 div#titulo-pagina p {
