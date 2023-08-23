@@ -238,3 +238,25 @@ div#titulo-pagina h1 {
 div#titulo-pagina p {
   font-size: 1.5em;
 }
+
+/* RODAPÉ */
+footer {
+  background-color: var(--cor11);
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -10px 15px var(--sombra);
+
+  padding: 20px;
+}
+footer p,
+footer a {
+  text-align: center;
+  font-size: 1em;
+  color: white;
+}
+footer p {
+  margin-bottom: 15px;
+}
+footer a {
+  text-decoration: none;
+  font-weight: bolder;
+}
