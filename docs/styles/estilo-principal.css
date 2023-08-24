@@ -33,9 +33,6 @@
   --cor14: #464646;
   --cor15: #555555;
   --cor-letra-branca: #d9d9d9;
-  /* Mais cores coloridas */
-  --cor16: #2b3a67;
-  --cor17: #285238;
 
   /* Gradientes */
   --gradiente-colorido: var(--cor01), var(--cor02), var(--cor03), var(--cor04), var(--cor05);

@@ -48,7 +48,7 @@ function aplicarTema() {
     //ALTERAR VARIÁVEIS
 
     //Fundo
-    root.setProperty("--fundo-solido", "var(--cor11)")
+    root.setProperty("--fundo-solido", "#000")
 
     //Gradiente
     root.setProperty("--gradiente-padrao", "var(--gradiente-escuro)")
