@@ -276,7 +276,7 @@ article p {
 /* CAPA DE INTRODUÇÃO DAS PÁGINAS */
 div#titulo-pagina {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 
   background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.25));
 
