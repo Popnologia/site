@@ -139,6 +139,7 @@ header {
 
   background-color: var(--fundo-transparente);
   backdrop-filter: blur(10px);
+  border-radius: 0 0 15px 15px;
 
   /* Alinhar conteúdo */
   display: flex;
@@ -203,15 +204,15 @@ nav {
 
   position: fixed;
   z-index: 2;
-  top: 55px;
+  top: 0;
   left: 0;
   width: 100vw;
-  height: calc(100vh - 55px);
+  height: 100vh;
 
   background-color: var(--fundo-transparente-preto);
   backdrop-filter: blur(10px);
 
-  padding-top: 30px;
+  padding-top: 75px;
   padding-left: 40px;
 }
 nav ul {
