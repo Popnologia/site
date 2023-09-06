@@ -128,6 +128,11 @@ h4::after {
   border-radius: 2px;
   margin-top: 1px;
 }
+/* LINKS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* HEADER */
 header {
@@ -268,8 +273,11 @@ nav a:hover::after {
 main p {
   text-align: justify;
 }
+article {
+  margin: 5px;
+}
 article p {
-  margin: 15px 5px;
+  margin: 15px 0;
   font-size: 1.3em;
 }
 
@@ -323,6 +331,31 @@ div#titulo-pagina p {
   font-size: 1.5em;
 }
 
+/* IMAGENS DENTRO DE ARTIGOS */
+article figure {
+  margin: auto;
+  box-sizing: border-box;
+  position: relative;
+}
+article figure > picture > img {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+article figure > figcaption {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 4px 8px;
+
+  background-color: rgba(23, 23, 23, 0.5);
+  max-width: calc(100%-32px);
+  border-radius: 4px;
+
+  font-size: 0.9em;
+  color: var(--cor08);
+}
+
 /* RODAPÉ */
 footer {
   background-color: var(--cor11);
@@ -341,6 +374,5 @@ footer p {
   margin-bottom: 15px;
 }
 footer a {
-  text-decoration: none;
   font-weight: bolder;
 }
