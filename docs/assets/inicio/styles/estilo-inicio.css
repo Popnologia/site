@@ -16,5 +16,15 @@ div#introducao > p {
   backdrop-filter: blur(10px);
   border-radius: 10px;
 
-  font-size: 1.2em;
+  font-size: 1.1em;
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  div#introducao > p {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 425px) {
+  div#introducao > p {
+    font-size: 1.3em;
+  }
 }

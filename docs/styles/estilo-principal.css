@@ -43,7 +43,7 @@
   /* CORES TRANSPARENTES */
   --fundo-solido: var(--cor10);
   --fundo-texto: var(--cor10);
-  --fundo-transparente-branco: #ededed80;
+  --fundo-transparente-branco: #ededed92;
   --fundo-transparente-preto: #1c1c1c80;
   --fundo-transparente: var(--fundo-transparente-branco);
 
@@ -99,24 +99,24 @@ h3 {
 }
 h2 {
   color: var(--cor01);
-  font-size: 2.5em;
+  font-size: 1.86em;
   font-weight: 600;
 }
 h3 {
   color: var(--cor04);
-  font-size: 2.1em;
+  font-size: 1.8em;
 }
 
 h4 {
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bolder;
   margin-bottom: 2px;
 }
 .subtitulo-h4 {
   margin-top: 2px;
   margin-left: 0;
-  font-size: 0.9em;
+  font-size: 1em;
   text-transform: uppercase;
 }
 h4::after {
@@ -164,7 +164,7 @@ header {
   padding: 10px 0 10px 10px;
 }
 .logo > h1 {
-  font-size: 2em;
+  font-size: 1.6em;
 }
 .logo > p.slogan {
   display: none;
@@ -186,7 +186,7 @@ aside#botoes-nav > button {
 aside#botoes-nav > button > i {
   padding: 0;
   margin: 0;
-  font-size: 29px;
+  font-size: 25px;
 }
 /* Ocultar ícones */
 #menu-aberto,
@@ -229,7 +229,7 @@ nav li {
 }
 
 nav a {
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
@@ -273,12 +273,9 @@ nav a:hover::after {
 main p {
   text-align: justify;
 }
-article {
-  margin: 5px;
-}
 article p {
   margin: 15px 0;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 /* DIVS COM IMAGENS DE FUNDO */
@@ -292,7 +289,7 @@ article p {
 /* DIVS APÓS IMAGEM DE FUNDO */
 .pos-imagem-fundo {
   margin-top: -15px;
-  padding: 19px;
+  padding: 15px 13px;
 
   border-radius: 20px 20px 0 0;
   box-shadow: 0 -10px 15px var(--sombra);
@@ -325,10 +322,10 @@ div#titulo-pagina p {
   -webkit-text-fill-color: transparent;
 }
 div#titulo-pagina h1 {
-  font-size: 3.2em;
+  font-size: 2.5em;
 }
 div#titulo-pagina p {
-  font-size: 1.5em;
+  font-size: 1.24em;
 }
 
 /* IMAGENS DENTRO DE ARTIGOS */
@@ -344,15 +341,16 @@ article figure > picture > img {
 }
 article figure > figcaption {
   position: absolute;
-  right: 10px;
-  bottom: 10px;
+  bottom: 3px;
+  width: 94%;
+  margin: auto;
   padding: 4px 8px;
 
   background-color: rgba(23, 23, 23, 0.5);
-  max-width: calc(100%-32px);
-  border-radius: 4px;
+  /* max-width: calc(100%-32px); */
+  border-radius: 10px;
 
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: var(--cor08);
 }
 
@@ -364,14 +362,12 @@ footer {
 
   padding: 20px;
 }
-footer p,
-footer a {
+footer p {
   text-align: center;
   font-size: 1em;
   color: white;
-}
-footer p {
-  margin-bottom: 15px;
+
+  margin-bottom: 10px;
 }
 footer a {
   font-weight: bolder;
