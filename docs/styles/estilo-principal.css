@@ -172,18 +172,18 @@ header {
 }
 
 /* Botões */
-aside#botoes-nav {
+#botoes-nav {
   display: flex;
   padding: 4vw;
   width: 100%;
   justify-content: space-between; /*Distribuir horizontalmente os elementos filhos*/
 }
-aside#botoes-nav > button {
+#botoes-nav > button {
   border: none;
   background: transparent;
 }
 
-aside#botoes-nav > button > i {
+#botoes-nav > button > i {
   padding: 0;
   margin: 0;
   font-size: 23px;
@@ -289,7 +289,7 @@ article p {
 /* DIVS APÓS IMAGEM DE FUNDO */
 .pos-imagem-fundo {
   margin-top: -15px;
-  padding: 15px 13px;
+  padding: 15px 4.5vw;
 
   border-radius: 20px 20px 0 0;
   box-shadow: 0 -10px 15px var(--sombra);
@@ -328,24 +328,26 @@ div#titulo-pagina p {
   font-size: 1.1em;
 }
 
-/* IMAGENS DENTRO DE ARTIGOS */
-article figure {
+/* IMAGENS */
+figure {
   margin: auto;
   box-sizing: border-box;
   position: relative;
 }
-article figure > picture > img {
+figure > picture > img {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   width: 100%;
 }
-article figure > figcaption {
+figure > figcaption {
   position: absolute;
   left: 0;
+  right: 0;
+
   bottom: 3px;
   padding: 3px 8px;
 
-  background-color: rgba(23, 23, 23, 0.5);
+  background-color: rgba(23, 23, 23, 0.6);
   /* max-width: calc(100%-32px); */
   border-radius: 10px;
 

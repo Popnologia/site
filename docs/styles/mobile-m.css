@@ -1,16 +1,19 @@
 @charset "UTF-8";
 
-/* MOBILE P (320px - 375px) */
+/* MOBILE M (375 - 425px) */
 
 header {
-  height: 45px;
+  height: 50px;
 }
 .logo h1 {
-  font-size: 1.6em;
+  font-size: 1.7em;
+}
+#botoes-nav > button > i {
+  font-size: 2em;
 }
 
 nav {
-  padding-left: 35px;
+  padding-left: 45px;
 }
 
 /* Titulo da página */
@@ -24,11 +27,11 @@ div#titulo-pagina p {
 
 /* Tamanho dos títulos */
 h2 {
-  font-size: 2em;
+  font-size: 2.31em;
   margin-bottom: 0;
 }
 h3 {
-  font-size: 1.8em;
+  font-size: 2.2em;
 }
 
 /* Legendas das imagens */
@@ -40,4 +43,13 @@ article figure > figcaption {
 /* Tamanho do texto */
 article p {
   font-size: 1.2em;
+}
+
+.pos-imagem-fundo {
+  padding-top: 25px;
+}
+
+/* Legendas das imagens */
+figure > figcaption {
+  font-size: 0.9em;
 }

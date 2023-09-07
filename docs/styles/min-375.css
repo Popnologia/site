@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Estilos que serão carregados quando o tamanho mínimo da tela for 375px */
+
+/* Legenda das imagens em bloco */
+article figure > figcaption {
+  left: auto;
+  right: 10px;
+  bottom: 10px;
+  max-width: calc(100% - 32px);
+  border-radius: 4px;
+}
