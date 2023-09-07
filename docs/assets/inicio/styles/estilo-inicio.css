@@ -19,8 +19,11 @@ div#introducao > p {
   font-size: 1em;
 }
 @media screen and (min-width: 320px) and (max-width: 425px) {
+  #introducao {
+    padding-bottom: 50px;
+  }
   div#introducao > p {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
 @media screen and (min-width: 425px) {
