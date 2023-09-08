@@ -9,14 +9,14 @@ function navMobile() {
     //Abrir nav
     botaoAbrir.style.display = "none"
     botaoFechar.style.display = "flex"
-    nav.style.display = "flex"
+    nav.style.opacity = 1
 
     body.style.overflow = "hidden" //Impede rolagem do conteúdo quando nav estiver aberto
   } else {
     //Fechar nav
     botaoAbrir.style.display = "flex"
     botaoFechar.style.display = "none"
-    nav.style.display = "none"
+    nav.style.opacity = 0
 
     body.style.overflow = "auto" //Restaura rolagem ao fechar nav
   }

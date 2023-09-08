@@ -211,7 +211,8 @@ header i {
 
 /* NAV */
 nav {
-  display: none;
+  display: flex;
+  opacity: 0; /*Ocultar nav*/
 
   position: fixed;
   z-index: 2;
@@ -225,6 +226,8 @@ nav {
 
   padding-top: 75px;
   padding-left: 25px;
+
+  transition: opacity 0.2s ease; /*Efeito ao abrir nav*/
 }
 nav ul {
   list-style-type: none;
