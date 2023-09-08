@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* Tela maior do que 1.000px */
+
+article {
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
