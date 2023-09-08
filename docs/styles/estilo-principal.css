@@ -211,8 +211,7 @@ header i {
 
 /* NAV */
 nav {
-  display: flex;
-  opacity: 0; /*Ocultar nav*/
+  display: none; /*Ocultar nav mobile*/
 
   position: fixed;
   z-index: 2;
@@ -227,8 +226,20 @@ nav {
   padding-top: 75px;
   padding-left: 25px;
 
-  transition: opacity 0.2s ease; /*Efeito ao abrir nav*/
+  animation: abreNav 1s ease-in-out; /*Efeito ao abrir nav*/
 }
+/* Animação ao abrir e fechar o nav */
+@keyframes abreNav {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 nav ul {
   list-style-type: none;
 }
