@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* MOBILE M (375 - 425px) */
+
+header {
+  height: 60px;
+}
+.logo h1 {
+  font-size: 2em;
+}
+#botoes-nav > button > i {
+  font-size: 2.5em;
+}
+
+nav {
+  padding-left: 50px;
+}
+
+/* Titulo da página */
+div#titulo-pagina h1 {
+  font-size: 3.3em;
+}
+/* Slogan da página */
+div#titulo-pagina p {
+  font-size: 1.62em;
+}
+
+/* Tamanho dos títulos */
+h2 {
+  font-size: 2.64em;
+  margin-bottom: 0;
+}
+h3 {
+  font-size: 2.5em;
+}
+h4 {
+  font-size: 1.35em;
+}
+
+/* Legendas das imagens */
+article figure > figcaption {
+  padding: 4px 8px;
+  font-size: 1.1em;
+}
+
+/* Tamanho do texto */
+article p,
+p.subtitulo-h4 {
+  font-size: 1.35em;
+}
+
+.pos-imagem-fundo {
+  padding-top: 30px;
+}
+
+/* Legendas das imagens */
+figure > figcaption {
+  font-size: 0.9em;
+}
+
+/* Footer */
+footer p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}

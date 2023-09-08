@@ -37,7 +37,7 @@ h3 {
 /* Legendas das imagens */
 article figure > figcaption {
   padding: 4px 8px;
-  font-size: 0.95em;
+  font-size: 1em;
 }
 
 /* Tamanho do texto */
@@ -47,9 +47,4 @@ article p {
 
 .pos-imagem-fundo {
   padding-top: 25px;
-}
-
-/* Legendas das imagens */
-figure > figcaption {
-  font-size: 0.9em;
 }
