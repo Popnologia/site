@@ -68,6 +68,11 @@
   margin: 0;
   padding: 0;
   font-family: var(--fonte-texto);
+
+  transition: background-color 1.5s ease;
+}
+p {
+  transition: color 1.5s ease; /*Animação ao alterar tema*/
 }
 
 body {
@@ -382,7 +387,6 @@ h1,
 h2,
 h3,
 h4,
-figcaption,
-main {
+figcaption {
   transition: all 1s ease;
 }
