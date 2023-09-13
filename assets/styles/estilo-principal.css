@@ -351,11 +351,11 @@ div#titulo-pagina p {
 
 /* IMAGENS */
 figure {
-  margin: auto;
+  margin: 10px auto;
   box-sizing: border-box;
   position: relative;
 }
-figure > picture > img {
+figure img {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   width: 100%;
