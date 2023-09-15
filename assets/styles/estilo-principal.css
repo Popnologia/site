@@ -306,13 +306,14 @@ article p {
   background-attachment: fixed;
 }
 
-/* DIVS APÓS IMAGEM DE FUNDO */
+/* DIVS COM ARTIGOS */
 .com-artigo {
   background-color: var(--fundo-solido);
+  padding: 15px 4.5vw;
 }
+/* DIVS APÓS IMAGEM DE FUNDO */
 .pos-imagem-fundo {
   margin-top: -15px;
-  padding: 15px 4.5vw;
 
   border-radius: 20px 20px 0 0;
   box-shadow: 0 -10px 15px var(--sombra);
