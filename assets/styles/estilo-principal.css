@@ -307,13 +307,15 @@ article p {
 }
 
 /* DIVS APÓS IMAGEM DE FUNDO */
+.com-artigo {
+  background-color: var(--fundo-solido);
+}
 .pos-imagem-fundo {
   margin-top: -15px;
   padding: 15px 4.5vw;
 
   border-radius: 20px 20px 0 0;
   box-shadow: 0 -10px 15px var(--sombra);
-  background-color: var(--fundo-solido);
 }
 
 /* CAPA DE INTRODUÇÃO DAS PÁGINAS */
